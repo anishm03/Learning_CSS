@@ -3,8 +3,73 @@ h3{
     background: rgb(186, 178, 178);
     font-size: 30px;
 }
-p{
+/* p{
     color: aqua;
     background: rgb(93, 124, 93);
     font-size: 1.5em;
+} */
+.heading1{
+    font-size: 50;
+    color: antiquewhite;
+}
+.heading2{
+    font-size: 65;
+    color: aqua;
+}
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_cpitalize{
+    text-transform: capitalize;
+}
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+.t_decor_under{
+    text-decoration: underline;
+}
+.t_decor_over{
+    text-decoration: overline;
+}
+.t_decor_line{
+    text-decoration: line-through;
+}
+.t_decor_all{
+    text-decoration: line-through underline overline;
+}
+.t_intend{
+    text-indent: 100px;
+}
+.letter_space{
+    letter-spacing: 10px;
+}
+.word_space{
+    word-spacing: 20;
+}
+.line_height{
+    line-height: 25px;
+}
+.t_shadow1{
+    color: white;
+    text-shadow: 4px 6px 8px blue;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow2{
+    color: red;
+    text-shadow: 4px 6px 8px aqua;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow3{
+    color: yellow;
+    text-shadow: 4px 6px 8px blue;
+    font-size: 100px;
+    text-align: center;
 }
