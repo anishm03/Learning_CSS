@@ -73,3 +73,59 @@ h3{
     font-size: 100px;
     text-align: center;
 }
+.b_shadow{
+    box-shadow: 10px 10px 10px red;
+}
+.d_shadow{
+    filter: drop-shadow(10px 10px 10px rgb(223, 223, 114));
+
+}
+.img_ratio{
+    height: 400px;
+    width: 400px;
+}
+.t_color{
+   color: red;
+}
+#t_color{
+    color: aqua;
+    font-size: 50px;
+    background-color: #FF77E4;
+}
+.t_size{
+font-size: 100px;
+}
+.b_prop{
+    border: 20px solid red;
+}
+.b_prop1{
+    border: 10px dotted blue;
+}
+.b_prop2{
+    border: 20px double red;
+}
+.b_prop3{
+    border: 10px inset blue;
+}
+.b_radius{
+    border: 20px double red;
+    border-radius: 30px;
+}
+.b_radius1{
+    border: 20px double red;
+    /* border-top-left-radius:80px ;
+     border-top-right-radius:10px ;
+      border-bottom-right-radius:80px ;
+       border-bottom-left-radius:10px ; */
+       border-radius: 30px 20px 30px 20px;
+
+}
+.b_color{
+     border: 20px double red;
+     /* border-top-color: green;
+     border-left-color:red ;
+     border-bottom-color: blueviolet;
+     border-left-color: aqua; */
+     border-color: blue red green yellow;
+}
+
