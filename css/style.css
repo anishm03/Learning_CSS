@@ -10,7 +10,9 @@ h3{
 } */
 .heading1{
     font-size: 50;
-    color: antiquewhite;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
 }
 .heading2{
     font-size: 65;
@@ -127,5 +129,93 @@ font-size: 100px;
      border-bottom-color: blueviolet;
      border-left-color: aqua; */
      border-color: blue red green yellow;
+}
+.para1{
+    border: 3px solid aqua;
+}
+.para2{
+    border: 3px solid aqua;
+    padding: 40px;
+    margin: 50px;
+}
+.para3{
+    border: 3px solid aqua;
+    /* padding-top: 40px;
+     padding-right: 80px;
+      padding-bottom: 40px;
+       padding-left: 80px;
+       margin-top: 30px;
+       margin-right: 60px;
+       margin-bottom: 30px;
+       margin-left: 60px; */
+       padding:40px 80px 40px 80px ;
+       margin: 30px 60px 30px 60px;
+}
+.image1{
+    border: 3px double red;
+    padding:40px 80px 40px 80px ;
+       margin: 30px 60px 30px 60px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+.box1{
+    position: static;
+    /* right: 10px; for ex */
+}
+.box2{
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+.box3{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.box4{
+    position: sticky;
+    top: 0px;
+
+}
+.box5{
+    position: fixed;
+    right: 5px;
+    bottom: 0px;
+}
+.hall{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    left: 120px;
+
+}
+#tv{
+    position: absolute;
+    background-color: yellow;
+    left: 80px;
+    height:20px;
+    width: 80px;
+}
+#sofa{
+    position: absolute;
+    background-color: green;
+    left:60px ;
+    top: 40px;
+    height: 40px;
+    width: 120px;
+}
+#fridge{
+    position: absolute;
+    background-color: blue;
+    bottom: 0px;
+    right: 3px;
+    height: 80px;
+    width: 50px;
 }
 
