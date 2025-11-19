@@ -166,7 +166,7 @@ font-size: 100px;
 .box1{
     position: static;
     /* right: 10px; for ex */
-}
+
 .box2{
     position: relative;
     left: 200px;
