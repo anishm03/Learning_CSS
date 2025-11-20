@@ -29,3 +29,34 @@
     0%,50%{transform: rotateX(0deg);}
     60%,to{transform: rotateX(-85deg);}
 }
+/* mobile view */
+@media only screen and (min-width:320px) and (max-width:720px){
+    body{
+        font-size: 20px;
+        background-color: red;
+    }
+    p{
+        display: none;
+    }
+    h1,h3{
+        color: white;
+        background-color: yellow;
+    }
+}
+@media (min-width:720px){
+    body{
+        background-color: green;
+        font-size: 50px;
+    }
+    p{
+        font-size: 60px;
+        color: red;
+    }
+    h1,h3{
+        color: white;
+        background-color: purple;
+    }
+    img{
+        display: none;
+    }
+}
